@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<title>Flexbox</title>
+</head>
+<body>
+  <div class="container">
+    <div class="box ">1</div>
+    <div class="box pair">2</div>
+    <div class="box ">3</div>
+    <div class="box pair">4</div>
+    <div class="box ">5</div>
+    <div class="box pair">6</div>
+    <div class="box ">7</div>
+    <div class="box pair">8</div>
+  </div>
+  <div class="controls">
+    <button id="addBox">+</button>
+    <button id="removeBox">-</button>
+  </div>
+  <div>
+    <label for="justify-content">Justify Content:</label>
+    <select id="justify-content">
+      <option value="flex-start">Flex Start</option>
+      <option value="flex-end">Flex End</option>
+      <option value="center">Center</option>
+      <option value="space-between">Space Between</option>
+      <option value="space-around">Space Around</option>
+      <option value="space-evenly">Space Evenly</option>
+    </select>
+    <label for="flex-wrap">Flex Wrap:</label>
+    <select id="flex-wrap">
+      <option value="wrap">Wrap</option>
+      <option value="nowrap">No Wrap</option>
+      <option value="wrap-reverse">Wrap Reverse</option>
+    </select>
+    <label for="align-items">Align Items:</label>
+    <select id="align-items">
+      <option value="flex-start">Flex Start</option>
+      <option value="flex-end">Flex End</option>
+      <option value="center">Center</option>
+      <option value="baseline">Baseline</option>
+      <option value="stretch">Stretch</option>
+    </select>
+    <label for="align-content">Align Content:</label>
+    <select id="align-content">
+      <option value="flex-start">Flex Start</option>
+      <option value="flex-end">Flex End</option>
+      <option value="center">Center</option>
+      <option value="space-between">Space Between</option>
+      <option value="space-around">Space Around</option>
+      <option value="stretch">Stretch</option>
+    </select>
+    <label for="flex-direction">Flex Direction:</label>
+    <select id="flex-direction">
+      <option value="row">Row</option>
+      <option value="row-reverse">Row Reverse</option>
+      <option value="column">Column</option>
+      <option value="column-reverse">Column Reverse</option>
+    </select>
+  </div>
+
+</body>
+</html>
